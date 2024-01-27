@@ -15,6 +15,7 @@ const UserContextProvider = ({ children }) => {
   children ko ham return kar rahe hai UserContext.Provider me rap karke kiyo ke children ko kahi se bhi call kar sake 
   */}
       {children}
+      //ye children he App.jsx hai smajh me aaya kya
     </UserContext.Provider>
   );
   // return means hai jo bhi object aa raha hai usse chup chaap jesa aayaa hai wesa he return kardo
