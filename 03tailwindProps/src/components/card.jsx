@@ -3,14 +3,14 @@ import React from "react";
 //Ab yaha se props shuru hota hai
 
 //5) props ek object hai toh jo passed parameters hai unko props. props.  use karne se bheter hai ke card(props) par he destructure kardo like given below
-//desturcture meaning hai ke ko parameters props ke andar hai unko directly use karlo niche wali line me method hai destructure karne ka
+//desturcture meaning hai ke ko parameters props ke andar hai unko directly use karlo niche wali line me method hai destructure karne ka in line no. 10
 
-//Accha toh ab is username ko use kese karna hai kese jese jsx allow hai mtlb variable ke form me {username} aese
+//Accha toh ab is username ko use kese karna hai kese jese jsx allow hai mtlb variable ke form me {username} aese is ka exapmle line no. 16 me hai
 
 function Card({ username, btnText = "Default Me " }) {
   // final) ham yahi kuch default value bhi de sakte hai ta ke agar koi parameter pass karna bhul gaya hai toh kuch toh show kare
 
-  // 2)hame nahi pata ke props kiya hoa hai toh ham use console.log() karwa ke dekh lete hai
+  // 2)hame nahi pata ke props kiya hota hai toh ham use console.log() karwa ke dekh lete hai
   //log me props EMPTY hai yaha se hao App.jsx mein
   //   console.log("Props", props);
   console.log(username);

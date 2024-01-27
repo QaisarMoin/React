@@ -10,12 +10,12 @@ import "./App.css";
 function App() {
   //---------------------><-------------------------\\
   //3)From here we start to using Hooks like useState
-  //useState() respnsible hai state ko change karne ke liye and is change ko propogate kiya jata hai DOM ke andar
+  //useState() responsible hai state ko change karne ke liye and is change ko propogate kiya jata hai DOM ke andar
   //useState(give any default value here except function)
   //---------------------><-------------------------\\
   //here i am giving the default value 15 to the useState
   const [counter, qaisarCounter] = useState(15);
-  //im above line counter is variable like any other varible and setCounter is the funtion which is responsible for the change in the counter variable
+  //in above line counter is variable like any other varible and setCounter is the funtion which is responsible for the change in the counter variable
   //AND setCounter function ko call karna hota hai and usme ye batana hota hai ke call karne ke baad kiya work karna hai
 
   // let counter = 15;

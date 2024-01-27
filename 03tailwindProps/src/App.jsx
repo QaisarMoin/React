@@ -33,7 +33,7 @@ function App() {
       {/* <Card />
       <Card /> */}
 
-      {/* 2) Now from here we are passing some parameters to the props a)passing simple parametre b) passing an Object c) Passing an Array.  Array and Pbject ko ek variable  means {} isme pass karna padhta hai  */}
+      {/* 2) Now from here we are passing some parameters to the props a)passing simple parametre b) passing an Object c) Passing an Array.  Array and object ko ek variable  means {} isme pass karna padhta hai  */}
 
       <Card
         username="Mohd Qaisar Moin"
