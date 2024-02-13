@@ -19,7 +19,7 @@ function TodoForm() {
   };
 
   return (
-    <form className="flex" onSubmit={addTodoList}>
+    <form className="flex " onSubmit={addTodoList}>
       <input
         type="text"
         placeholder="Write Todo..."
