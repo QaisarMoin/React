@@ -31,7 +31,7 @@ function App() {
       <div className="w-full block">
         <Header />
         Hello
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </div>
   ) : null;
