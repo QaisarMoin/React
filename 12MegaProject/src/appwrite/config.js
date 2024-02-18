@@ -97,6 +97,8 @@ export class Service {
         conf.appwriteDatabaseId,
         conf.appwriteProjectId,
         queries
+        //querie return value in the form of array
+        //isliye hamne AllPosts mein ek empty array pass kare hai ta ke uske andar sari posts store ho jaye
       );
     } catch (error) {
       console.log("Appwrite service :: getPosts ::error", error);
@@ -113,8 +115,8 @@ export class Service {
         ID.unique(),
         //isko ek unique id chiyea hoti hai
         file
-        // ye function at the end FILEID he return karta hai
-        // issi id ko ham use kar ke createpost me show karwa sakte hai
+        // ye function at the end FILEID(imageId) he return karta hai
+        // issi id ko ham use kar ke createpost me (image ko) show karwa sakte hai
       );
     } catch (error) {
       console.log("Appwrite service :: uploadFile ::error", error);

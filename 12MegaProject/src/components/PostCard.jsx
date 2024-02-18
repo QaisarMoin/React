@@ -14,7 +14,7 @@ function PostCard({ $id, featuredImage, title }) {
             className="rounded-xl"
           />
         </div>
-        <h1>${title}</h1>
+        <h1>{title}</h1>
       </div>
     </Link>
   );

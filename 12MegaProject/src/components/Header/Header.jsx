@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function Header() {
-  const authStatus = useSelector((state) => state.auth.state.status);
+  let authStatus = useSelector((state) => state.status);
   const navigate = useNavigate();
 
   const navItem = [
@@ -46,7 +46,7 @@ function Header() {
           </div>
 
           <ul className="flex ml-auto">
-            //baar baar na likhna padeh isliye loop mein kaam kar rahe hai
+            {/* baar baar na likhna padeh isliye loop mein kaam kar rahe hai */}
             {navItem.map((item) =>
               item.active ? (
                 <li key={item.name}>
